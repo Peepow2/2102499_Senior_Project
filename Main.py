@@ -4,7 +4,15 @@ import Noon
 import Night
 import ROI_Manual_click
 
-cap = cv2.VideoCapture("Case 1.mp4")
+#cap = cv2.VideoCapture("CCTV//Short Take//Noon//Case 1.mp4")
+#cap = cv2.VideoCapture("CCTV//Short Take//Night//Case 1.mp4")
+#cap = cv2.VideoCapture("CCTV//Long Take//CAM31 Night 2.mp4")
+#cap = cv2.VideoCapture("CCTV//Long Take//CAM31 Noon 2.mp4")
+#cap = cv2.VideoCapture("Test//Two-lane Road (cut).mp4")
+#cap = cv2.VideoCapture("CCTV//Long Take//CAM48 Night 1.mp4")
+#cap = cv2.VideoCapture("CCTV//Long Take//CAM30 Noon.mp4")
+#cap = cv2.VideoCapture("CCTV//Long Take//CAM31 Night 1.mp4")
+cap = cv2.VideoCapture("CCTV//Long Take//CAM48 Noon 1.mp4")
 
 ret, frame = cap.read()
 if not ret: exit()
