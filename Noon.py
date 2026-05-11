@@ -134,7 +134,7 @@ def detect(RoI, Direction, cap):
                     if wrong and obj_id not in wrong_way_ids:
                         wrong_way_ids.add(obj_id)
                         counter[label] += 1
-                        cv2.imwrite(f"Source Code WORK//Capture_vechine//ID{obj_id}_{label}.png", raw_frame[y1-20:y2+20,x1-20:x2+20])
+                        cv2.imwrite(f"Save File Path", raw_frame[y1-20:y2+20,x1-20:x2+20])
 
             # -----------------------------
             # draw bbox
