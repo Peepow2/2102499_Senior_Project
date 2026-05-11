@@ -188,7 +188,7 @@ def draw_vehicle(frame, vehicle, obj_id, label, move_angle, is_valid_dir):
     x1, y1, x2, y2 = vehicle["bbox"]
 
     if not is_valid_dir:
-        cv2.imwrite(f"Source Code WORK//Capture_vechine//ID{obj_id}_{label}.png", frame[y1-20:y2+20,x1-20:x2+20])
+        cv2.imwrite(f"Save file Path", frame[y1-20:y2+20,x1-20:x2+20])
     cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
 
     for (sx, sy, _) in vehicle["spots"]:
